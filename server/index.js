@@ -6,13 +6,13 @@ const path = require('path');
 const app = express();
 
 app.use(morgan('dev'));
-app.use(express.static(path.join(__dirname, './public')));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
-
+app.use(express.static(path.join(__dirname, '..', 'public')))
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, '../index.html'));
-});
+  res.sendFile(path.join(__dirname, '..', 'public/index.html'))
+})
+
 
 app.use((err, req, res) => {
   console.error(err);
