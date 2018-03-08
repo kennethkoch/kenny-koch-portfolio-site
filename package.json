@@ -4,7 +4,7 @@
   "description": "My portfolio site",
   "main": "app.js",
   "scripts": {
-    "build" : "webpack -p",
+    "build": "webpack -p",
     "start": "webpack -w & nodemon --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -20,10 +20,12 @@
   "homepage": "https://github.com/kennethkoch/kenny-koch-portfolio-site#readme",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "css-loader": "^0.28.10",
     "express": "^4.16.2",
     "morgan": "^1.9.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "style-loader": "^0.20.2"
   },
   "devDependencies": {
     "babel-core": "^6.26.0",

@@ -1,11 +1,11 @@
 import React from 'react';
-
+import '../../../public/styles.css'
 const Navbar = (props) => {
   return (
-    <div id='navbar'>
+    <div className='navbar'>
       <ul>
         <li>Home</li>
-        <li>About Me</li>
+        <li>Blog</li>
         <li>Portfolio</li>
         <li>Contact</li>
       </ul>

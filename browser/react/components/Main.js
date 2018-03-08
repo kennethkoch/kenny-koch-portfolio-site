@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 export default class Main extends Component {
   render () {
     return (
-      <div id='main'>
+      <div id='main' className='container'>
       <Navbar />
       </div>
     )
