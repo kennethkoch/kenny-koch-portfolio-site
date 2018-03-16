@@ -22,22 +22,3 @@ time, mark, audio, video {
 ul {
 	list-style: none;
 }
-
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-}
-
-
-li {
-  display: inline-flex;
-  flex-wrap: no-wrap;
-  padding: 2em;
-  margin: auto;
-}
-
-ul {
-  margin: auto;
-  padding: 0;
-}
