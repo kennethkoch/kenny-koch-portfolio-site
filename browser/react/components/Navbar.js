@@ -4,8 +4,8 @@ import '../../../public/styles.css'
 
 const Navbar = (props) => {
   return (
-    <div>
-    <Menu stackable fluid widths={8} fixed="top" pointing secondary>
+    <div >
+    <Menu id='navbar' large stackable fluid widths={8} fixed="top" inverted pointing borderless secondary>
       <Menu.Item active>Home</Menu.Item>
       <Menu.Item>About</Menu.Item>
       <Menu.Item>Portfolio</Menu.Item>

@@ -22,3 +22,18 @@ time, mark, audio, video {
 ul {
 	list-style: none;
 }
+
+#intro-container {
+	height: 100vh;
+	width: 100vw;
+
+}
+
+#navbar {
+	border: 0px !important;
+}
+
+#masthead {
+	background-image: url('images/background.jpeg') !important;
+	background-size: cover !important;
+}

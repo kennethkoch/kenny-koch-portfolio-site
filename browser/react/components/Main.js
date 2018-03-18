@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar'
+import Intro from './Intro'
 
 
 export default class Main extends Component {
@@ -7,6 +8,7 @@ export default class Main extends Component {
     return (
       <div id='main' className='container'>
       <Navbar />
+      <Intro />
       </div>
     )
   }
