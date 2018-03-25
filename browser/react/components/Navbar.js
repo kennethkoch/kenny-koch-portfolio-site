@@ -1,5 +1,7 @@
 import React, {Component} from 'react';
 import { Menu } from 'semantic-ui-react'
+import * as Scroll from 'react-scroll';
+import { Link, DirectLink, Element , Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import '../../../public/styles.css'
 
 export default class Navbar extends Component {
@@ -23,9 +25,11 @@ export default class Navbar extends Component {
     this.toggleClass(nextProps.activeSection)
 }
 
+
   handleClick(index){
     console.log('inside handleClick for element ' + index);
     this.toggleClass(index)
+    console.log(this.state);
   }
 
   toggleClass(index) {
@@ -44,10 +48,10 @@ export default class Navbar extends Component {
     return (
       <div >
       <Menu id='navbar' large fluid widths={8} fixed="top" inverted pointing borderless secondary>
-      <Menu.Item active={this.state.activeClasses[0]} onClick={() => this.handleClick(0)}>Home</Menu.Item>
-      <Menu.Item active={this.state.activeClasses[1]} onClick={() => this.handleClick(1)}>About</Menu.Item>
-      <Menu.Item active={this.state.activeClasses[2]} onClick={() => this.handleClick(2)}>Portfolio</Menu.Item>
-      <Menu.Item active={this.state.activeClasses[3]} onClick={() => this.handleClick(3)}>Contact</Menu.Item>
+      <Menu.Item as={Link} to={'intro'} spy={false} smooth={true} active={this.state.activeClasses[0]} onClick={() => this.handleClick(0)}>Home</Menu.Item>
+      <Menu.Item as={Link} to={'about'} spy={false} smooth={true} active={this.state.activeClasses[1]} onClick={() => this.handleClick(1)}>About</Menu.Item>
+      <Menu.Item as={Link} to={'portfolio'} spy={false} smooth={true} active={this.state.activeClasses[2]} onClick={() => this.handleClick(2)}>Portfolio</Menu.Item>
+      <Menu.Item as={Link} to={'contact'} spy={false} smooth={true} active={this.state.activeClasses[3]} onClick={() => this.handleClick(3)}>Contact</Menu.Item>
       </Menu>
       </div>
     )

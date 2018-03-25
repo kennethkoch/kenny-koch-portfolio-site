@@ -29,9 +29,9 @@ export default class Main extends Component {
     return (
       <div id='main' className='container'>
       <Navbar activeSection={this.state.activeSection}/>
-      <Intro/>
+      <Intro />
       <Visibility once={false} offset={200} onTopPassed={() => this.handleTopPassed(1)} onTopPassedReverse={() => this.handleTopPassed(0)}><About /></Visibility>
-      <Visibility once={false} offset={45} onTopPassed={() => this.handleTopPassed(2)} onTopPassedReverse={() => this.handleTopPassed(1)}><Portfolio /></Visibility>
+      <Visibility once={false} offset={200} onTopPassed={() => this.handleTopPassed(2)} onTopPassedReverse={() => this.handleTopPassed(1)}><Portfolio /></Visibility>
       <Contact />
       </div>
     )
