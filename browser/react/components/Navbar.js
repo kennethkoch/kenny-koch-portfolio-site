@@ -28,8 +28,8 @@ export default class Navbar extends Component {
 
   handleClick(index){
     console.log('inside handleClick for element ' + index);
-    this.toggleClass(index)
-    console.log(this.state);
+    // this.toggleClass(index)
+    // console.log(this.state);
   }
 
   toggleClass(index) {
