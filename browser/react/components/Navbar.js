@@ -9,7 +9,7 @@ export default class Navbar extends Component {
   constructor(props) {
     super(props)
     this.state = {
-      activeClasses: [true, false, false, false]
+      activeClasses: [true, false, false]
     }
     this.toggleClass = this.toggleClass.bind(this)
     this.handleClick = this.handleClick.bind(this)
@@ -45,14 +45,12 @@ export default class Navbar extends Component {
     };
 
   render () {
-    const shouldInvert = this.state.activeClasses[0] || this.state.activeClasses[1]
     return (
-      <div >
-      <Menu id='navbar' large fluid widths={8} fixed="top" inverted={shouldInvert} pointing borderless secondary>
+      <div>
+      <Menu id='navbar' large fluid widths={8} fixed="top" inverted pointing borderless secondary>
       <Menu.Item as={Link} to={'intro'} spy={false} smooth={true} active={this.state.activeClasses[0]} onClick={() => this.handleClick(0)}>Home</Menu.Item>
       <Menu.Item as={Link} to={'about'} spy={false} smooth={true} active={this.state.activeClasses[1]} onClick={() => this.handleClick(1)}>About</Menu.Item>
       <Menu.Item as={Link} to={'portfolio'} spy={false} duration={1000} smooth={true} active={this.state.activeClasses[2]} onClick={() => this.handleClick(2)}>Portfolio</Menu.Item>
-      <Menu.Item as={Link} to={'contact'} spy={false} smooth={true} active={this.state.activeClasses[3]} onClick={() => this.handleClick(3)}>Contact</Menu.Item>
       </Menu>
       </div>
     )

@@ -4,11 +4,12 @@ import '../../../public/styles.css';
 
 const Intro = (props) => {
     return (
+      <div id='background'>
       <Segment id='intro'
   inverted
   textAlign='center'
   vertical
-  ></Segment>
+  ></Segment></div>
     )
 }
 
