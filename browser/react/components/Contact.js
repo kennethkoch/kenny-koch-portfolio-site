@@ -9,9 +9,9 @@ const Contact = (props) => {
   inverted
   textAlign='center'
   vertical
-  > <Grid padded='horizontally' verticalAlign='middle' centered textAlign = 'left' columns='equal'>
+  > <Grid padded='horizontally' verticalAlign='middle' centered textAlign='centered' columns='equal'>
     <Grid.Row centered>
-      <Grid.Column>
+      <Grid.Column textAlign='centered'>
       <div >
       <a href='https://github.com/kennethkoch'>
         <Icon name='github' size='big'></Icon>
@@ -19,14 +19,27 @@ const Contact = (props) => {
         </a>
       </div>
       </Grid.Column>
-      <Grid.Column>
-
+      <Grid.Column textAlign='centered'>
+      <div>
+      <a href=''>
+      <Icon name='linkedin square' size='big'></Icon>
+      Connect on LinkedIn
+      </a>
+      </div>
       </Grid.Column>
-      <Grid.Column>
-
+      <Grid.Column textAlign='centered'>
+      <div>
+      <Icon name='mail' size='big'></Icon>
+      kennykoch47@gmail.com
+      </div>
       </Grid.Column>
-      <Grid.Column>
-
+      <Grid.Column textAlign='centered'>
+      <div>
+      <a href=''>
+      <Icon name='twitter' size='big'></Icon>
+      @kennykoch47
+      </a>
+      </div>
       </Grid.Column>
     </Grid.Row>
     </Grid></Segment>
