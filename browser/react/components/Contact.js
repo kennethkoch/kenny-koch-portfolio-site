@@ -21,7 +21,7 @@ const Contact = (props) => {
       </Grid.Column>
       <Grid.Column textAlign='centered'>
       <div>
-      <a href=''>
+      <a href='https://www.linkedin.com/in/kenny-koch/'>
       <Icon name='linkedin square' size='big'></Icon>
       Connect on LinkedIn
       </a>
@@ -35,7 +35,7 @@ const Contact = (props) => {
       </Grid.Column>
       <Grid.Column textAlign='centered'>
       <div>
-      <a href=''>
+      <a href='https://twitter.com/kennykoch47'>
       <Icon name='twitter' size='big'></Icon>
       @kennykoch47
       </a>
