@@ -23,6 +23,15 @@ ul {
 	list-style: none;
 }
 
+a {
+	text-decoration: none;
+	color: #CFD8DC;
+}
+
+a:hover {
+	color: white;
+}
+
 
 #navbar {
 	border: 0px;
@@ -62,10 +71,11 @@ body {
 }
 
 #contact {
-	height: 80px;
+	height: 64px;
 	width: 100vw;
 	left: 0;
 	bottom: 0;
-	background-color: #27ae60;
+	opacity: 0.7;
+	background-color: #212121;
 	position: fixed;
 }
