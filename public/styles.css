@@ -79,3 +79,7 @@ body {
 	background-color: #212121;
 	position: fixed;
 }
+
+#projects {
+	margin: 150px 40px 50px 40px;
+}
