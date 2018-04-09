@@ -44,10 +44,10 @@ body {
 }
 
 #intro {
-	background-image: url('images/background.jpg');
+	background-image: url('images/dark-milky-way-night-186599.jpg');
 	background-size: cover;
 	position: fixed;
-	opacity: 0.2;
+	opacity: 0.8;
 	height: 100vh;
 	width: 100vw;
 	z-index: -99;
@@ -82,4 +82,35 @@ body {
 
 #projects {
 	margin: 150px 40px 50px 40px;
+}
+
+
+#intro-container {
+	/* color: white; */
+	position: relative;
+	margin-top: 30vh;
+	border: 5px solid rgba(255, 255, 255, .5)
+}
+
+
+#intro-subheader {
+	border: 4px solid black;
+	font: 73px 'Alfa Slab One';
+	text-align: center;
+	margin: 5px;
+	color: black;
+	mix-blend-mode: screen;
+	background-color: white;
+	opacity: 0.6;
+}
+
+#intro-header {
+  border: 4px solid black;
+  font: bolder 87px 'Alfa Slab One';
+  text-align: center;
+  margin: 5px;
+	color: black;
+  mix-blend-mode: screen;
+  background-color: white;
+	opacity: 0.9;
 }

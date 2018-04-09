@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Segment, Visibility } from 'semantic-ui-react'
+import { Segment, Header } from 'semantic-ui-react'
 import '../../../public/styles.css'
 
 const About = (props) => {
@@ -8,7 +8,9 @@ const About = (props) => {
       inverted
       textAlign='center'
       vertical
-      ></Segment>
+      >
+      <Header textAlign='center'>Can you read this?</Header>
+      </Segment>
     )
 };
 
