@@ -115,3 +115,29 @@ body {
   background-color: white;
 	opacity: 0.9;
 }
+
+
+#about-grid .header {
+	font: bold 2.5em 'roboto';
+	text-decoration: underline;
+}
+
+
+#about-grid p {
+	padding: 30px;
+	font: normal 1.5em 'arial';
+	border: 2px solid white;
+}
+
+#about-grid li {
+	padding: 7px;
+	font: bold 1.5em 'arial';
+}
+
+#about ul {
+	padding: 10px;
+}
+
+#about-grid {
+	margin: 120px;
+}
