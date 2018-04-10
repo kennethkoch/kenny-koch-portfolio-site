@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Segment, Header, Grid } from 'semantic-ui-react'
+import { Segment, Header, Grid, List } from 'semantic-ui-react'
 import '../../../public/styles.css'
 
 const About = (props) => {
@@ -20,29 +20,34 @@ const About = (props) => {
       </Grid.Row>
       <Grid.Row>
         <Grid.Column>
-        <p>Lorem ipsum dolor sit amet, nostro dictas ocurreret est ut, epicurei officiis honestatis sea id. An quo ridens legimus. At his splendide conceptam, per in munere quaeque. Eu pro sonet reformidans, debet omittam principes per at.
-
-Est facilisis conclusionemque ne, qui recteque petentium ea, vel in platonem intellegebat. Eu mei iudicabit comprehensam, cu porro mucius imperdiet est. Nec id augue viris intellegebat. Viderer appellantur mediocritatem no vis, an mel sadipscing adversarium. Sea exerci labitur democritum ut. Iudico iuvaret his te, zril postulant suavitate mea te.
-
-Errem iriure his eu, nec ne oporteat imperdiet. Quaeque verterem eu qui, vel cu facete persius, saperet democritum intellegebat cu eam. Ei sed alienum minimum commune, vix ad adhuc nihil efficiantur, ea tamquam blandit eligendi nec. Et persecuti dissentiet eos.
-
-Doming regione qui at, in vim alii iusto complectitur. Mea quem quis te, dicunt aliquip nam no. No nec libris menandri voluptatibus, no tale legimus luptatum vis, dicunt phaedrum mei at. Est omnis accusamus temporibus ne, in mel erant commune.</p>
+        <p>My name is Kenny Koch and I am a fullstack software engineer. I have experience
+            with both front-end and back-end web development. In February of 2018 I graduated
+            from Fullstack Academy, an immersive coding bootcamp where I spent three
+            months working with some of the smartest people and most talented programmers
+            I've ever met. I'm now focused on continuing to build web applications and
+            creating intuitive user experiences. I'm also branching out into mobile
+            application development via React Native. Some of my other interests include
+            blockchain technology, specifically the development of scalability solutions
+            for Bitcoin such as the lightning network, as well as other decentralized
+            infrastructure projects.</p>
         </Grid.Column>
         <Grid.Column>
-        <ul>
-        <li>JavaScript</li>
-        <li>HTML/CSS</li>
-        <li>React</li>
-        <li>Redux</li>
-        <li>Node.js</li>
-        <li>Express.js</li>
-        <li>WordPress</li>
-        <li>Bootstrap</li>
-        <li>Semantic UI</li>
-        <li>Socket.io</li>
-        <li>OAuth</li>
-        <li>Sequelize</li>
-        </ul>
+        <List animated divided inverted size='huge'>
+        <List.Item>JavaScript</List.Item>
+        <List.Item>HTML/CSS</List.Item>
+        <List.Item>React</List.Item>
+        <List.Item>Redux</List.Item>
+        <List.Item>Node.js</List.Item>
+        <List.Item>Express.js</List.Item>
+        <List.Item>Sequelize</List.Item>
+        <List.Item>React Native</List.Item>
+        <List.Item>Web Design</List.Item>
+        <List.Item>WordPress</List.Item>
+        <List.Item>Bootstrap</List.Item>
+        <List.Item>Semantic UI</List.Item>
+        <List.Item>Socket.io</List.Item>
+        <List.Item>OAuth</List.Item>
+        </List>
         </Grid.Column>
       </Grid.Row>
       </Grid>
