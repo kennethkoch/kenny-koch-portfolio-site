@@ -30,7 +30,7 @@ export default class Main extends Component {
       <div id='main' className='container'>
       <Navbar activeSection={this.state.activeSection}/>
       <Intro activeSection = {this.state.activeSection}/>
-      <Visibility once={false} throttle={500} offset={250} onTopPassed={() => this.handleTopPassed(1)} onTopPassedReverse={() => this.handleTopPassed(0)}><About /></Visibility>
+      <Visibility once={false} throttle={500} offset={300} onTopPassed={() => this.handleTopPassed(1)} onTopPassedReverse={() => this.handleTopPassed(0)}><About /></Visibility>
       <Visibility once={false} throttle={500} offset={250} onTopPassed={() => this.handleTopPassed(2)} onTopPassedReverse={() => this.handleTopPassed(1)}><Portfolio /></Visibility>
       <Contact />
       </div>

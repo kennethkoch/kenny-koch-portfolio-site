@@ -27,7 +27,7 @@ export default class Intro extends Component {
       <Header id='intro-header' textAlign='center' as='h1'>Kenny Koch
       </Header>
       <Header.Subheader id='intro-subheader' textAlign='center' as='h3'>
-      Web Developer
+      Developer
       </Header.Subheader>
       </Container> : null}
 

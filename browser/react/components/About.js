@@ -24,12 +24,11 @@ const About = (props) => {
             with both front-end and back-end web development. In February of 2018 I graduated
             from Fullstack Academy, an immersive coding bootcamp where I spent three
             months working with some of the smartest people and most talented programmers
-            I've ever met. I'm now focused on continuing to build web applications and
-            creating intuitive user experiences. I'm also branching out into mobile
-            application development via React Native. Some of my other interests include
-            blockchain technology, specifically the development of scalability solutions
-            for Bitcoin such as the lightning network, as well as other decentralized
-            infrastructure projects.</p>
+            I've ever met. I'm now focused on continuing to build web and mobile applications
+            and expanding my knowledge. One area which I have become deeply interested in is
+            blockchain technology. <a href=''>Check out my blog</a> where I write more about
+            various projects the crypto space, and feel free to contact me about anything
+            via any of the methods below!</p>
         </Grid.Column>
         <Grid.Column>
         <List animated divided inverted size='huge'>
