@@ -142,3 +142,12 @@ body {
 #about-grid {
 	margin: 120px;
 }
+
+.portfolio-link {
+	color: black;
+	margin: 0% 3%;
+}
+
+.portfolio-link:hover {
+	color: gray;
+}
