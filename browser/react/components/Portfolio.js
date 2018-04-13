@@ -20,7 +20,7 @@ const Portfolio = (props) => {
        algorithm running on the platform is distributed across many different
        web browser clients, meaning any user can sign up and contribute their
        computing power. I was part of a team of four developers who built this
-       at FullStack Academy</Card.Description><br />
+       at Fullstack Academy over the course of about 2 weeks.</Card.Description><br />
        <a className='portfolio-link' href='https://github.com/Minierre/fortysix'>
          <Icon name='github' size='big'></Icon>
          View on GitHub
