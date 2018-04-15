@@ -1,5 +1,5 @@
 import React from 'react';
-import { Segment, Card, Icon } from 'semantic-ui-react'
+import { Segment, Card, Icon, Image } from 'semantic-ui-react'
 import '../../../public/styles.css'
 
 const Portfolio = (props) => {
@@ -11,10 +11,10 @@ const Portfolio = (props) => {
   vertical
   >
   <Card.Group id='projects' centered itemsPerRow={3}>
-    <Card color='red'>
+    <Card color='blue'>
     <Card.Content>
       <Card.Header>FortySix</Card.Header>
-      <Card.Meta>developer, Jan 2018-Feb 2018</Card.Meta>
+      <Card.Meta>Distributed Computing Platform</Card.Meta>
       <Card.Description>FortySix is a platform that allows users to customize
        and run genetic algorithms. The computational load of each genetic
        algorithm running on the platform is distributed across many different
@@ -30,45 +30,31 @@ const Portfolio = (props) => {
          View our Demo
         </a>
     </Card.Content>
-    <Card.Content extra>JavaScript, React, Redux Express, Sequelize,
-     Web Workers, threads.js Socket.IO</Card.Content>
+    <Card.Content extra>JavaScript, React, Redux, Express, Sequelize,
+     Web Workers, Threads.js Socket.IO</Card.Content>
     </Card>
-    <Card color='orange'>
+    <Card color='teal'>
     <Card.Content>
-      <Card.Header>Project Title</Card.Header>
-      <Card.Meta>role, time worked on</Card.Meta>
-      <Card.Description>description of the project</Card.Description>
+      <Card.Header>kennykoch.com</Card.Header>
+      <br />
+      <Card.Meta>Portfolio</Card.Meta>
+      <br />
+      <Card.Description>I decided to create my portfolio from scratch, partly
+      to demonstrate my ability to do so, but mostly because this offers much
+      more creative freedom and control over the product than using some
+      drag and drop website builder. I also elected to make this website
+      completely open-source, you can view all the code on GitHub.</Card.Description><br />
+      <a className='portfolio-link' href='https://github.com/kennethkoch/kenny-koch-portfolio-site'>
+        <Icon name='github' size='big'></Icon>
+        View on GitHub
+       </a>
     </Card.Content>
-    <Card.Content extra>technologies used</Card.Content>
+    <Card.Content extra>JavaScript, React, Express, Semantic UI</Card.Content>
     </Card>
     <Card color='yellow'>
     <Card.Content>
       <Card.Header>Project Title</Card.Header>
-      <Card.Meta>role, time worked on</Card.Meta>
-      <Card.Description>description of the project</Card.Description>
-    </Card.Content>
-    <Card.Content extra>technologies used</Card.Content>
-    </Card>
-    <Card color='red'>
-    <Card.Content>
-      <Card.Header>Project Title</Card.Header>
-      <Card.Meta>role, time worked on</Card.Meta>
-      <Card.Description>description of the project</Card.Description>
-    </Card.Content>
-    <Card.Content extra>technologies used</Card.Content>
-    </Card>
-    <Card color='orange'>
-    <Card.Content>
-      <Card.Header>Project Title</Card.Header>
-      <Card.Meta>role, time worked on</Card.Meta>
-      <Card.Description>description of the project</Card.Description>
-    </Card.Content>
-    <Card.Content extra>technologies used</Card.Content>
-    </Card>
-    <Card color='yellow'>
-    <Card.Content>
-      <Card.Header>Project Title</Card.Header>
-      <Card.Meta>role, time worked on</Card.Meta>
+      <Card.Meta>metadata</Card.Meta>
       <Card.Description>description of the project</Card.Description>
     </Card.Content>
     <Card.Content extra>technologies used</Card.Content>
