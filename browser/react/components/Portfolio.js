@@ -10,10 +10,12 @@ const Portfolio = (props) => {
   textAlign='center'
   vertical
   >
-  <Card.Group id='projects' centered itemsPerRow={3}>
+  <Card.Group id='projects' centered itemsPerRow={2}>
     <Card color='blue'>
     <Card.Content>
-      <Card.Header>FortySix</Card.Header>
+    <Card.Header>FortySix</Card.Header>
+    <br />
+    <Image src='/images/FortySix.jpeg'/>
       <Card.Meta>Distributed Computing Platform</Card.Meta>
       <Card.Description>FortySix is a platform that allows users to customize
        and run genetic algorithms. The computational load of each genetic
@@ -37,8 +39,9 @@ const Portfolio = (props) => {
     <Card.Content>
       <Card.Header>kennykoch.com</Card.Header>
       <br />
-      <Card.Meta>Portfolio</Card.Meta>
+      <Image src='/images/kennykochscreenshot.jpg' />
       <br />
+      <Card.Meta>Portfolio</Card.Meta>
       <Card.Description>I decided to create my portfolio from scratch, partly
       to demonstrate my ability to do so, but mostly because this offers much
       more creative freedom and control over the product than using some
@@ -50,14 +53,6 @@ const Portfolio = (props) => {
        </a>
     </Card.Content>
     <Card.Content extra>JavaScript, React, Express, Semantic UI</Card.Content>
-    </Card>
-    <Card color='yellow'>
-    <Card.Content>
-      <Card.Header>Project Title</Card.Header>
-      <Card.Meta>metadata</Card.Meta>
-      <Card.Description>description of the project</Card.Description>
-    </Card.Content>
-    <Card.Content extra>technologies used</Card.Content>
     </Card>
   </Card.Group>
   </Segment>
