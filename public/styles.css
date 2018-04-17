@@ -87,7 +87,6 @@ body {
 
 
 #intro-container {
-	/* color: white; */
 	position: relative;
 	margin-top: 30vh;
 	border: 5px solid rgba(255, 255, 255, .5)
@@ -130,10 +129,6 @@ body {
 	border: 2px solid white;
 }
 
-/* #about-grid .item {
-	padding: 7px;
-	font: bold 1.5em 'arial';
-} */
 
 #about .list {
 	padding: 30px 300px;

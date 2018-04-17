@@ -16,9 +16,6 @@ export default class Navbar extends Component {
     this.scrollToTop = this.scrollToTop.bind(this)
   }
 
-  componentDidMount() {
-    console.log(this.props);
-  }
 
   componentWillReceiveProps(nextProps) {
     this.toggleClass(nextProps.activeSection)

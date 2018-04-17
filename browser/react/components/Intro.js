@@ -9,13 +9,8 @@ export default class Intro extends Component {
     super(props)
   }
 
-  componentDidMount() {
-    console.log(this.props);
-  }
-
 
   render () {
-    console.log('props inside render' + this.props.activeSection);
     const activeSection = this.props.activeSection;
     return (
       <Segment id='intro'

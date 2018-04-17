@@ -17,10 +17,6 @@ export default class Main extends Component {
     this.handleTopPassed = this.handleTopPassed.bind(this)
   }
 
-  componentDidMount() {
-    this.navbarHeight = document.getElementById('navbar').clientHeight
-  }
-
   handleTopPassed(index) {
     this.setState({ activeSection: index })
   }
