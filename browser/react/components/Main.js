@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './Navbar'
 import Intro from './Intro'
 import Portfolio from './Portfolio'
-import Contact from './Contact'
+import Footer from './Footer'
 import About from './About'
 import { Visibility } from 'semantic-ui-react';
 
@@ -28,7 +28,7 @@ export default class Main extends Component {
       <Intro activeSection = {this.state.activeSection}/>
       <Visibility once={false} throttle={500} offset={300} onTopPassed={() => this.handleTopPassed(1)} onTopPassedReverse={() => this.handleTopPassed(0)}><About /></Visibility>
       <Visibility once={false} throttle={500} offset={250} onTopPassed={() => this.handleTopPassed(2)} onTopPassedReverse={() => this.handleTopPassed(1)}><Portfolio /></Visibility>
-      <Contact />
+      <Footer />
       </div>
     )
   }
