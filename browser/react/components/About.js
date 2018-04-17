@@ -3,16 +3,16 @@ import { Segment, Header, Grid, List } from 'semantic-ui-react';
 import '../../../public/styles.css';
 
 const About = props => (
-  <Segment id="about" inverted textAlign="center" vertical>
-    <Grid id="about-grid" columns={2}>
+  <Segment id='about' inverted textAlign='center' vertical>
+    <Grid id='about-grid' columns={2}>
       <Grid.Row>
         <Grid.Column>
-          <Header as="h1" inverted>
+          <Header as='h1' inverted>
             Who am I?
           </Header>
         </Grid.Column>
         <Grid.Column>
-          <Header as="h1" inverted>
+          <Header as='h1' inverted>
             Skills
           </Header>
         </Grid.Column>
@@ -25,13 +25,13 @@ const About = props => (
             Fullstack Academy, an immersive coding bootcamp where I spent three months working with
             some of the smartest people and most talented programmers I've ever met. I'm now focused
             on continuing to build web and mobile applications and expanding my knowledge. One area
-            which I have become deeply interested in is blockchain technology. <a href="">Check out
+            which I have become deeply interested in is blockchain technology. <a href=''>Check out
             my blog</a> where I write more about various projects the crypto space, and feel free
             to contact me about anything via any of the methods below!
           </p>
         </Grid.Column>
         <Grid.Column>
-          <List animated divided inverted size="huge">
+          <List animated divided inverted size='huge'>
             <List.Item>JavaScript</List.Item>
             <List.Item>HTML/CSS</List.Item>
             <List.Item>React</List.Item>
