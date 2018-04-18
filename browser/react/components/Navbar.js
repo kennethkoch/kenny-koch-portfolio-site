@@ -45,7 +45,7 @@ export default class Navbar extends Component {
     return (
       <div>
       <Menu id='navbar' large fluid widths={8} fixed="top" inverted pointing borderless secondary>
-      <Menu.Item as={Link} to={'intro'} spy={false} smooth={true} active={this.state.activeClasses[0]} onClick={() => this.handleClick(0)}>Home</Menu.Item>
+      <Menu.Item as={Link} to={'home'} spy={false} smooth={true} active={this.state.activeClasses[0]} onClick={() => this.handleClick(0)}>Home</Menu.Item>
       <Menu.Item as={Link} to={'about'} spy={false} smooth={true} active={this.state.activeClasses[1]} onClick={() => this.handleClick(1)}>About</Menu.Item>
       <Menu.Item as={Link} to={'portfolio'} spy={false} duration={1000} smooth={true} active={this.state.activeClasses[2]} onClick={() => this.handleClick(2)}>Portfolio</Menu.Item>
       </Menu>
