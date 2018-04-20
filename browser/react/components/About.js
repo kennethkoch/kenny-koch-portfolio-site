@@ -25,9 +25,9 @@ const About = props => (
             Fullstack Academy, an immersive coding bootcamp where I spent three months working with
             some of the smartest people and most talented programmers I've ever met. I'm now focused
             on continuing to build web and mobile applications and expanding my knowledge. One area
-            which I have become deeply interested in is blockchain technology. <a href="">Check out
-            my blog</a> where I write about the crypto space, and feel free to contact me via any
-            of the methods below!
+            which I have become deeply interested in is blockchain technology. <a href="">Click here
+            to check out my blog</a> where I write about the crypto space, and feel free to contact
+            me via any of the methods below!
           </p>
         </Grid.Column>
         <Grid.Column>
