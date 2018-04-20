@@ -31,7 +31,7 @@ const About = props => (
           </p>
         </Grid.Column>
         <Grid.Column>
-          <List animated divided inverted size='huge'>
+          <List animated divided inverted size='large'>
             <List.Item>JavaScript</List.Item>
             <List.Item>HTML/CSS</List.Item>
             <List.Item>React</List.Item>
@@ -46,6 +46,8 @@ const About = props => (
             <List.Item>Semantic UI</List.Item>
             <List.Item>Socket.io</List.Item>
             <List.Item>OAuth</List.Item>
+            <List.Item>App Deployment</List.Item>
+            <List.Item>Server Configuration</List.Item>
           </List>
         </Grid.Column>
       </Grid.Row>
