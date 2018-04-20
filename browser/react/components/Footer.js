@@ -22,7 +22,7 @@ const Footer = props => (
         </Grid.Column>
         <Grid.Column textAlign='centered'>
           <div>
-            <a href="https://www.linkedin.com/in/kenny-koch/">
+            <a href="https://www.linkedin.com/in/kenny-koch">
               <Icon name='linkedin square' size='big' />
               Connect on LinkedIn
             </a>
@@ -30,8 +30,10 @@ const Footer = props => (
         </Grid.Column>
         <Grid.Column textAlign='centered'>
           <div>
-            <Icon name='mail' size='big' />
-            kennykoch47@gmail.com
+            <a href="mailto:kennykoch47@gmail.com">
+              <Icon name='mail' size='big' />
+              kennykoch47@gmail.com
+            </a>
           </div>
         </Grid.Column>
         <Grid.Column textAlign='centered'>
