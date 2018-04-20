@@ -26,8 +26,8 @@ const About = props => (
             some of the smartest people and most talented programmers I've ever met. I'm now focused
             on continuing to build web and mobile applications and expanding my knowledge. One area
             which I have become deeply interested in is blockchain technology. <a href="">Check out
-            my blog</a> where I write more about various projects the crypto space, and feel free
-            to contact me about anything via any of the methods below!
+            my blog</a> where I write about the crypto space, and feel free to contact me via any
+            of the methods below!
           </p>
         </Grid.Column>
         <Grid.Column>
