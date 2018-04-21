@@ -1,6 +1,4 @@
-const path = require('path');
-
-const NODE_ENV = process.env.NODE_ENV || 'development';
+const env = process.env.NODE_ENV || 'development';
 
 module.exports = {
   entry: './browser/index.js',
@@ -8,6 +6,7 @@ module.exports = {
     path: __dirname,
     filename: './public/bundle.js',
   },
+  mode: env || 'development',
   module: {
     rules: [
       {

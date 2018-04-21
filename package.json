@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "build": "webpack -p",
-    "start": "webpack -w & nodemon --watch app.js",
+    "start": "NODE_ENV=production webpack -p & node app.js",
+    "start-dev": "NODE_ENV=development webpack -w & nodemon --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
