@@ -3,16 +3,14 @@ import { Segment, Icon, Grid } from 'semantic-ui-react';
 import '../../../public/styles.css';
 
 const Footer = props => (
-  <Segment id='footer' inverted textAlign='center' vertical>
+  <Segment id='footer' inverted vertical>
     <Grid
       padded='horizontally'
       verticalAlign='middle'
-      centered
-      textAlign='centered'
       columns='equal'
     >
-      <Grid.Row centered>
-        <Grid.Column textAlign='centered'>
+      <Grid.Row>
+        <Grid.Column textAlign='center'>
           <div>
             <a href="https://github.com/kennethkoch">
               <Icon name='github' size='big' />
@@ -20,7 +18,7 @@ const Footer = props => (
             </a>
           </div>
         </Grid.Column>
-        <Grid.Column textAlign='centered'>
+        <Grid.Column textAlign='center'>
           <div>
             <a href="https://www.linkedin.com/in/kenny-koch">
               <Icon name='linkedin square' size='big' />
@@ -28,7 +26,7 @@ const Footer = props => (
             </a>
           </div>
         </Grid.Column>
-        <Grid.Column textAlign='centered'>
+        <Grid.Column textAlign='center'>
           <div>
             <a href="mailto:kennykoch47@gmail.com">
               <Icon name='mail' size='big' />
@@ -36,7 +34,7 @@ const Footer = props => (
             </a>
           </div>
         </Grid.Column>
-        <Grid.Column textAlign='centered'>
+        <Grid.Column textAlign='center'>
           <div>
             <a href="https://twitter.com/kennykoch47">
               <Icon name='twitter' size='big' />
