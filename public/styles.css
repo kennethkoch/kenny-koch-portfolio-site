@@ -104,22 +104,23 @@ a:hover {
 
 #about-grid p {
 	border: 2px solid white;
-	font: normal 1.5em 'arial';
-	margin: 10px 100px;
-	padding: 30px 50px;
+	font: normal 2.3vmin 'roboto';
+	padding: 5%;
+	margin: 3%;
 }
 
 #about-grid .header {
-	font: bold 2.5em 'roboto';
+	font: bold 4vmin 'roboto';
 	text-decoration: underline;
 }
 
 #about .list {
-	padding: 10px 300px;
+	font: normal 1.8vmin 'roboto';
+	padding: 2% 15%;
 }
 
 #about-grid {
-	margin: 120px;
+	margin: 7%;
 }
 
 .portfolio-link {
