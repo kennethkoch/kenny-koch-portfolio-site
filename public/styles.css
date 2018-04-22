@@ -74,8 +74,8 @@ a:hover {
 	background-color: white;
 	border: 4px solid black;
 	color: black;
-	font: 73px 'Alfa Slab One';
-	margin: 5px;
+	font: 7.7vmin 'Alfa Slab One';
+	margin: 1%;
 	mix-blend-mode: screen;
 	opacity: 0.6;
 	text-align: center;
@@ -85,8 +85,8 @@ a:hover {
 	background-color: white;
 	border: 4px solid black;
 	color: black;
-	font: bolder 87px 'Alfa Slab One';
-	margin: 5px;
+	font: bolder 9vmin 'Alfa Slab One';
+	margin: 1%;
 	mix-blend-mode: screen;
 	opacity: 0.9;
 	text-align: center;
