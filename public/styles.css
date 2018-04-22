@@ -134,7 +134,8 @@ a:hover {
 
 #portfolio {
 	background-color: #263238;
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	opacity: 0.9;
 	width: 100vw;
 }
