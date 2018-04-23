@@ -5,7 +5,7 @@ import '../../../public/styles.css';
 const Portfolio = props => (
   <Segment id='portfolio' inverted textAlign='center' vertical>
     <Card.Group id='projects' centered stackable itemsPerRow={2}>
-      <Card color='blue'>
+      <Card raised color='blue'>
         <Card.Content>
           <Card.Header>FortySix</Card.Header>
           <br />
@@ -17,7 +17,7 @@ const Portfolio = props => (
        web browser clients, meaning any user can sign up and contribute their
        computing power. I was part of a team of four developers who built this
        at Fullstack Academy over the course of about 2 weeks.
-          </Card.Description><br />
+          </Card.Description>
           <List className='project-links' divided relaxed animated>
           <List.Item>
           <a className='portfolio-link' href='https://github.com/Minierre/fortysix'>
@@ -49,7 +49,7 @@ const Portfolio = props => (
       more creative freedom and control over the product than using some
       drag and drop website builder. I also elected to make this website
       completely open-source, you can view all the code on GitHub.
-          </Card.Description><br />
+          </Card.Description><br /><br />
           <List className='project-links' divided relaxed animated>
           <List.Item>
           <a className='portfolio-link' href='https://github.com/kennethkoch/kenny-koch-portfolio-site'>
