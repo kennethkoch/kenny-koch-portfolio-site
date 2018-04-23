@@ -5,7 +5,7 @@ import '../../../public/styles.css';
 const Portfolio = props => (
   <Segment id='portfolio' inverted textAlign='center' vertical>
     <Card.Group id='projects' centered stackable itemsPerRow={2}>
-      <Card raised color='blue'>
+      <Card color='blue'>
         <Card.Content>
           <Card.Header>FortySix</Card.Header>
           <br />
@@ -49,7 +49,7 @@ const Portfolio = props => (
       more creative freedom and control over the product than using some
       drag and drop website builder. I also elected to make this website
       completely open-source, you can view all the code on GitHub.
-          </Card.Description><br /><br />
+          </Card.Description><br />
           <List className='project-links' divided relaxed animated>
           <List.Item>
           <a className='portfolio-link' href='https://github.com/kennethkoch/kenny-koch-portfolio-site'>
