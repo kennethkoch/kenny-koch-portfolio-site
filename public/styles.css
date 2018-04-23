@@ -71,18 +71,19 @@ a:hover {
 	background-image: url('images/dark-milky-way-night-186599.jpg');
 	background-size: cover;
 	position: fixed;
-	height: 100vh;
+	min-height: 100vh;
+	height: auto;
 	left: 0;
 	opacity: 0.8;
 	top: 0;
-	width: 100vw;
+	min-width: 100vw;
+	width: auto;
 	z-index: -99;
 }
 
 #home-container {
 	border: 5px solid rgba(255, 255, 255, .5);
 	margin-top: 30vh;
-	position: relative;
 }
 
 #home-subheader {
