@@ -11,7 +11,7 @@ export default class Home extends Component {
         {activeSection === 0 ? <Container id='home-container' text>
           <Header id='home-header' textAlign='center' as='h1'>Kenny Koch
           </Header>
-          <Header.Subheader id='home-subheader' textAlign='center' as='h3'>
+          <Header.Subheader id='home-subheader' as='h3'>
       Developer
           </Header.Subheader>
         </Container> : null}

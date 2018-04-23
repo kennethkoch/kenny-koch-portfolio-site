@@ -1,10 +1,10 @@
 import React from 'react';
-import { Segment, Card, Icon, Image } from 'semantic-ui-react';
+import { Segment, Card, Icon, Image, List } from 'semantic-ui-react';
 import '../../../public/styles.css';
 
 const Portfolio = props => (
   <Segment id='portfolio' inverted textAlign='center' vertical>
-    <Card.Group id='projects' centered itemsPerRow={2}>
+    <Card.Group id='projects' centered stackable itemsPerRow={2}>
       <Card color='blue'>
         <Card.Content>
           <Card.Header>FortySix</Card.Header>
@@ -17,15 +17,21 @@ const Portfolio = props => (
        web browser clients, meaning any user can sign up and contribute their
        computing power. I was part of a team of four developers who built this
        at Fullstack Academy over the course of about 2 weeks.
-          </Card.Description><br />
+          </Card.Description>
+          <List className='project-links' divided relaxed animated>
+          <List.Item>
           <a className='portfolio-link' href='https://github.com/Minierre/fortysix'>
             <Icon name='github' size='big' />
          View on GitHub
           </a>
+          </List.Item>
+          <List.Item>
           <a className='portfolio-link' href='https://www.youtube.com/watch?v=SiYpjTP8c7s&index=22&list=PLx0iOsdUOUmndNwdSO_UI3KGiNlIMsPkQ'>
             <Icon name='youtube' size='big' />
          View our Demo
           </a>
+          </List.Item>
+          </List>
         </Card.Content>
         <Card.Content extra>JavaScript, React, Redux, Express, Sequelize,
      Web Workers, Threads.js Socket.IO
@@ -44,10 +50,14 @@ const Portfolio = props => (
       drag and drop website builder. I also elected to make this website
       completely open-source, you can view all the code on GitHub.
           </Card.Description><br />
+          <List className='project-links' divided relaxed animated>
+          <List.Item>
           <a className='portfolio-link' href='https://github.com/kennethkoch/kenny-koch-portfolio-site'>
             <Icon name='github' size='big' />
         View on GitHub
           </a>
+          </List.Item>
+          </List>
         </Card.Content>
         <Card.Content extra>JavaScript, React, Express, Semantic UI</Card.Content>
       </Card>
