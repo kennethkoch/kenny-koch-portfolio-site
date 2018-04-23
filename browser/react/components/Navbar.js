@@ -36,7 +36,7 @@ export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <Menu id='navbar' fluid widths={6} fixed="top" inverted pointing borderless secondary>
+        <Menu id='navbar' fluid widths={6} fixed="top" inverted stackable pointing borderless secondary>
           <Menu.Item
             as={Link}
             to="home"

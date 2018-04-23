@@ -52,8 +52,16 @@ a:hover {
 	width: 100vw;
 }
 
-@media screen and (max-width: 600px) {
-  .footer-link-text {
+@media screen and (max-width: 768px) {
+	#about-grid {
+		padding-top: 7vh;
+	}
+
+	#projects {
+		padding-top: 9vh;
+	}
+
+	.footer-link-text {
     visibility: hidden;
     display: none;
   }
