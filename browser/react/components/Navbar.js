@@ -34,9 +34,10 @@ export default class Navbar extends Component {
   }
 
   render() {
+    const id = ['navbar', 'about-navbar', 'portfolio-navbar'][this.props.activeSection];
     return (
       <div>
-        <Menu id='navbar' fluid widths={6} fixed="top" inverted stackable pointing borderless secondary>
+        <Menu id={id} widths={6} fixed="top" inverted stackable borderless pointing secondary>
           <Menu.Item
             as={Link}
             to="home"

@@ -42,6 +42,18 @@ a:hover {
 	font-size: 3.5vmin;
 }
 
+#about-navbar {
+	border: 0px;
+	font-size: 3.5vmin;
+	background-color: #444;
+}
+
+#portfolio-navbar {
+	border: 0px;
+	font-size: 3.5vmin;
+	background-color: #263238;
+}
+
 #footer {
 	background-color: #212121;
 	bottom: 0;

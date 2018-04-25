@@ -28,7 +28,7 @@ export default class Main extends Component {
         <Visibility
           once={false}
           throttle={500}
-          offset={300}
+          offset={80}
           onTopPassed={() => this.handleTopPassed(1)}
           onTopPassedReverse={() => this.handleTopPassed(0)}
         >
@@ -37,7 +37,7 @@ export default class Main extends Component {
         <Visibility
           once={false}
           throttle={500}
-          offset={250}
+          offset={10}
           onTopPassed={() => this.handleTopPassed(2)}
           onTopPassedReverse={() => this.handleTopPassed(1)}
         >
