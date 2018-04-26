@@ -19,18 +19,18 @@ const Portfolio = props => (
        at Fullstack Academy over the course of about 2 weeks.
           </Card.Description>
           <List className='project-links' divided relaxed animated>
-          <List.Item>
-          <a className='portfolio-link' href='https://github.com/Minierre/fortysix'>
-            <Icon name='github' size='big' />
+            <List.Item>
+              <a className='portfolio-link' href='https://github.com/Minierre/fortysix'>
+                <Icon name='github' size='big' />
          View on GitHub
-          </a>
-          </List.Item>
-          <List.Item>
-          <a className='portfolio-link' href='https://www.youtube.com/watch?v=SiYpjTP8c7s&index=22&list=PLx0iOsdUOUmndNwdSO_UI3KGiNlIMsPkQ'>
-            <Icon name='youtube' size='big' />
+              </a>
+            </List.Item>
+            <List.Item>
+              <a className='portfolio-link' href='https://www.youtube.com/watch?v=SiYpjTP8c7s&index=22&list=PLx0iOsdUOUmndNwdSO_UI3KGiNlIMsPkQ'>
+                <Icon name='youtube' size='big' />
          View our Demo
-          </a>
-          </List.Item>
+              </a>
+            </List.Item>
           </List>
         </Card.Content>
         <Card.Content extra>JavaScript, React, Redux, Express, Sequelize,
@@ -51,12 +51,12 @@ const Portfolio = props => (
       completely open-source, you can view all the code on GitHub.
           </Card.Description><br />
           <List className='project-links' divided relaxed animated>
-          <List.Item>
-          <a className='portfolio-link' href='https://github.com/kennethkoch/kenny-koch-portfolio-site'>
-            <Icon name='github' size='big' />
+            <List.Item>
+              <a className='portfolio-link' href='https://github.com/kennethkoch/kenny-koch-portfolio-site'>
+                <Icon name='github' size='big' />
         View on GitHub
-          </a>
-          </List.Item>
+              </a>
+            </List.Item>
           </List>
         </Card.Content>
         <Card.Content extra>JavaScript, React, Express, Semantic UI</Card.Content>
