@@ -29,12 +29,12 @@ body {
 }
 
 a {
-	color: #CFD8DC;
+	color: #80CBC4;
 	text-decoration: none;
 }
 
 a:hover {
-	color: white;
+	color: #4DB6AC;
 }
 
 #navbar {
@@ -60,6 +60,14 @@ a:hover {
 	left: 0;
 	position: fixed;
 	width: 100vw;
+}
+
+#footer a {
+	color: #B0BEC5;
+}
+
+#footer a:hover {
+	color: #FAFAFA;
 }
 
 @media screen and (max-width: 768px) {
