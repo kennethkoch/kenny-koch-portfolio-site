@@ -12,12 +12,13 @@ const About = props => (
         </Header>
         <p>
           My name is Kenny Koch and I am a fullstack software engineer. I have experience with
-          both front-end and back-end web development. In February of 2018 I graduated from
-          Fullstack Academy, an immersive coding bootcamp where I spent three months working with
-          some of the smartest people and most talented programmers I've ever met. I'm now focused
-          on continuing to build web and mobile applications and expanding my knowledge.
-          <Link to="portfolio" smooth spy={false}> Check out my portfolio</Link> to see some of my
-          recent projects, and feel free to contact me via any of the methods below!
+          front-end and back-end web development, responsive web design, and mobile development.
+          In February of 2018 I graduated from Fullstack Academy, an immersive coding bootcamp
+          where I spent three months working with some of the smartest people and most talented
+          programmers I've ever met. I'm now focused on continuing to build web and mobile
+          applications and expanding my knowledge.
+          <Link to="portfolio" smooth spy={false}> Check out my portfolio</Link> to see some
+          of my recent projects, and feel free to contact me via any of the methods below!
         </p>
       </Grid.Row>
       <Grid.Row centered>
