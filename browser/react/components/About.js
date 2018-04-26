@@ -22,7 +22,7 @@ const About = props => (
           </Grid.Row>
         <Grid.Row centered>
         <div>
-          <Header as='h1' inverted>
+          <Header id='skills-header' as='h1' inverted>
             Skills
           </Header>
           <List animated divided relaxed horizontal inverted size='large'>
@@ -43,7 +43,6 @@ const About = props => (
           <List.Item>Socket.io</List.Item>
           <List.Item>OAuth</List.Item>
           <List.Item>App Deployment</List.Item>
-          <List.Item>Server Configuration</List.Item>
           </List>
           </div>
         </Grid.Row>

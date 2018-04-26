@@ -139,9 +139,9 @@ a:hover {
 
 #about-grid p {
 	border: 2px solid white;
-	font: normal 2.9vmin 'roboto';
+	font: normal 3vmin 'roboto';
 	padding: 2%;
-	margin: 2% 8%;
+	margin: 1% 8%;
 }
 
 #about-grid .header {
@@ -150,8 +150,12 @@ a:hover {
 }
 
 #about .list .item {
-	font: normal 2.5vmin 'roboto';
+	font: normal 2.7vmin 'roboto';
 	padding: 1%;
+}
+
+#skills-header {
+	margin: auto;
 }
 
 #about-grid {
