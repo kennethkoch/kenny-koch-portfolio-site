@@ -34,7 +34,7 @@ const Portfolio = props => (
           </List>
         </Card.Content>
         <Card.Content extra>JavaScript, React, Redux, Express, Sequelize,
-     Web Workers, Threads.js Socket.IO
+     Web Workers, Threads.js, Socket.IO
         </Card.Content>
       </Card>
       <Card color='teal'>
@@ -47,8 +47,9 @@ const Portfolio = props => (
           <Card.Description>I decided to create my portfolio from scratch, partly
       to demonstrate my ability to do so, but mostly because this offers much
       more creative freedom and control over the product than using some
-      drag and drop website builder. I also elected to make this website
-      completely open-source, you can view all the code on GitHub.
+      drag and drop website builder. I will continue to update my portfolio as I
+      complete new projects. Also, this website is completely open-source, so you can view
+      all the code on GitHub.
           </Card.Description><br />
           <List className='project-links' divided relaxed animated>
             <List.Item>
