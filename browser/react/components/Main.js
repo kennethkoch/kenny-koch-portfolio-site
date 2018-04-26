@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
+import { Visibility } from 'semantic-ui-react';
 import Navbar from './Navbar';
 import Home from './Home';
 import Portfolio from './Portfolio';
 import Footer from './Footer';
 import About from './About';
-import { Visibility } from 'semantic-ui-react';
 
 
 export default class Main extends Component {

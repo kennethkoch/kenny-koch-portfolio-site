@@ -12,11 +12,11 @@ article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
 	margin: 0;
 	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
 	vertical-align: baseline;
 }
 
@@ -38,21 +38,36 @@ a:hover {
 	cursor: pointer;
 }
 
+@media screen and (max-width: 768px) {
+	#about-grid {
+		padding-top: 7vh;
+	}
+
+	#projects {
+		padding-top: 9vh;
+	}
+
+	.footer-link-text {
+		display: none;
+		visibility: hidden;
+	}
+}
+
 #navbar {
 	border: 0px;
 	font-size: 3.5vmin;
 }
 
 #about-navbar {
+	background-color: #3D3F41;
 	border: 0px;
 	font-size: 3.5vmin;
-	background-color: #3D3F41;
 }
 
 #portfolio-navbar {
+	background-color: #263238;
 	border: 0px;
 	font-size: 3.5vmin;
-	background-color: #263238;
 }
 
 #footer {
@@ -71,31 +86,16 @@ a:hover {
 	color: #FAFAFA;
 }
 
-@media screen and (max-width: 768px) {
-	#about-grid {
-		padding-top: 7vh;
-	}
-
-	#projects {
-		padding-top: 9vh;
-	}
-
-	.footer-link-text {
-    visibility: hidden;
-    display: none;
-  }
-}
-
 #home {
 	background-image: url('images/dark-milky-way-night-186599.jpg');
 	background-size: cover;
-	position: fixed;
-	min-height: 100vh;
 	height: auto;
 	left: 0;
-	opacity: 0.8;
-	top: 0;
+	min-height: 100vh;
 	min-width: 100vw;
+	opacity: 0.8;
+	position: fixed;
+	top: 0;
 	width: auto;
 	z-index: -99;
 }
@@ -103,17 +103,6 @@ a:hover {
 #home-container {
 	border: 5px solid rgba(255, 255, 255, .5);
 	margin-top: 30vh;
-}
-
-#home-subheader {
-	background-color: white;
-	border: 4px solid black;
-	color: black;
-	font: 7.7vmin 'Alfa Slab One';
-	margin: 1%;
-	mix-blend-mode: screen;
-	opacity: 0.6;
-	text-align: center;
 }
 
 #home-header {
@@ -127,11 +116,22 @@ a:hover {
 	text-align: center;
 }
 
+#home-subheader {
+	background-color: white;
+	border: 4px solid black;
+	color: black;
+	font: 7.7vmin 'Alfa Slab One';
+	margin: 1%;
+	mix-blend-mode: screen;
+	opacity: 0.6;
+	text-align: center;
+}
+
 #about {
 	background-color: #444446;
-	min-height: 100vh;
 	height: auto;
 	margin-top: 100vh;
+	min-height: 100vh;
 	opacity: 0.85;
 	position: relative;
 	width: 100vw;
@@ -140,8 +140,8 @@ a:hover {
 #about-grid p {
 	border: 2px solid white;
 	font: normal 3vmin 'roboto';
-	padding: 2%;
 	margin: 1% 8%;
+	padding: 2%;
 }
 
 #about-grid .header {
@@ -162,6 +162,14 @@ a:hover {
 	margin: 11vmin;
 }
 
+#portfolio {
+	background-color: #263238;
+	height: auto;
+	min-height: 100vh;
+	opacity: 0.9;
+	width: 100vw;
+}
+
 .portfolio-link {
 	color: black;
 	margin: 0% 3%;
@@ -169,14 +177,6 @@ a:hover {
 
 .portfolio-link:hover {
 	color: gray;
-}
-
-#portfolio {
-	background-color: #263238;
-	min-height: 100vh;
-	height: auto;
-	opacity: 0.9;
-	width: 100vw;
 }
 
 #portfolio .description {
