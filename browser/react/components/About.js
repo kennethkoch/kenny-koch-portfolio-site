@@ -28,13 +28,15 @@ const About = props => (
           <List animated divided relaxed horizontal inverted size='large'>
           <List.Item>JavaScript</List.Item>
           <List.Item>HTML/CSS</List.Item>
-          <List.Item>React</List.Item>
+          <List.Item>React.js</List.Item>
           <List.Item>Redux</List.Item>
           <List.Item>Node.js</List.Item>
           <List.Item>Express.js</List.Item>
           <List.Item>Sequelize</List.Item>
+          <List.Item>Web Development</List.Item>
+          <List.Item>Responsive Design</List.Item>
+          <List.Item>Mobile Development</List.Item>
           <List.Item>React Native</List.Item>
-          <List.Item>Web Design</List.Item>
           <List.Item>WordPress</List.Item>
           <List.Item>Bootstrap</List.Item>
           <List.Item>Semantic UI</List.Item>
