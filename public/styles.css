@@ -35,6 +35,7 @@ a {
 
 a:hover {
 	color: #4DB6AC;
+	cursor: pointer;
 }
 
 #navbar {

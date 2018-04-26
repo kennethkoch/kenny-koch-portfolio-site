@@ -1,5 +1,6 @@
 import React from 'react';
 import { Segment, Header, Grid, List } from 'semantic-ui-react';
+import { Link, animateScroll as scroll } from 'react-scroll';
 import '../../../public/styles.css';
 
 const About = props => (
@@ -14,10 +15,9 @@ const About = props => (
           both front-end and back-end web development. In February of 2018 I graduated from
           Fullstack Academy, an immersive coding bootcamp where I spent three months working with
           some of the smartest people and most talented programmers I've ever met. I'm now focused
-          on continuing to build web and mobile applications and expanding my knowledge. One area
-          which I have become deeply interested in is blockchain technology. <a href="">Click here
-          to check out my blog</a> where I write about the crypto space, and feel free to contact
-          me via any of the methods below!
+          on continuing to build web and mobile applications and expanding my knowledge.
+          <Link to="portfolio" smooth spy={false}> Check out my portfolio</Link> to see some of my recent projects, and feel free
+          to contact me via any of the methods below!
           </p>
           </Grid.Row>
         <Grid.Row centered>
