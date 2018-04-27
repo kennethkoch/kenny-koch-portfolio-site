@@ -46,9 +46,9 @@ const Portfolio = props => (
           <Card.Meta>Portfolio</Card.Meta>
           <Card.Description>I decided to create my portfolio from scratch, partly
       to demonstrate my ability to do so, but mostly because this offers much
-      more creative freedom and control over the product than using some
-      drag and drop website builder. I will continue to update my portfolio as I
-      complete new projects. Also, this website is completely open-source, so you can view
+      more creative freedom and control over the product than using a drag and
+      drop website builder. I will continue to update my portfolio as I complete
+      new projects. Also, this website is completely open-source, so you can view
       all the code on GitHub.
           </Card.Description><br />
           <List className='project-links' divided relaxed animated>
