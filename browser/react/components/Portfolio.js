@@ -60,7 +60,7 @@ const Portfolio = props => (
             </List.Item>
           </List>
         </Card.Content>
-        <Card.Content extra>JavaScript, React, Express, Semantic UI</Card.Content>
+        <Card.Content extra>JavaScript, React, Express, Firebase</Card.Content>
       </Card>
     </Card.Group>
   </Segment>
