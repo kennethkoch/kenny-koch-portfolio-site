@@ -1,3 +1,12 @@
 node_modules
 bundle.js
 bundle.js.map
+.firebaserc
+.database.rules.json
+firebase-debug.log
+firebase.json
+filestore.indexes.json
+storage.rules
+database.rules.json
+functions
+firestore.indexes.json
