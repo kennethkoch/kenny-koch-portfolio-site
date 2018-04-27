@@ -5,8 +5,6 @@
   "main": "app.js",
   "scripts": {
     "build": "webpack -p",
-    "start": "NODE_ENV=production webpack -p & node app.js",
-    "start-dev": "NODE_ENV=development webpack -w & nodemon --watch app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,10 +18,7 @@
   },
   "homepage": "https://github.com/kennethkoch/kenny-koch-portfolio-site#readme",
   "dependencies": {
-    "body-parser": "^1.18.2",
     "css-loader": "^0.28.10",
-    "express": "^4.16.2",
-    "morgan": "^1.9.0",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
     "react-scroll": "^1.7.7",
