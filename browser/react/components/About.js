@@ -38,7 +38,7 @@ const About = props => (
             <List.Item>Responsive Design</List.Item>
             <List.Item>Mobile Development</List.Item>
             <List.Item>React Native</List.Item>
-            <List.Item>WordPress</List.Item>
+            <List.Item>Firebase</List.Item>
             <List.Item>Bootstrap</List.Item>
             <List.Item>Semantic UI</List.Item>
             <List.Item>Socket.io</List.Item>
