@@ -7,7 +7,8 @@ const Footer = props => (
     <Grid
       padded='horizontally'
       verticalAlign='middle'
-      columns='equal'
+      columns='6'
+      centered
     >
       <Grid.Row>
         <Grid.Column textAlign='center'>
@@ -31,14 +32,6 @@ const Footer = props => (
             <a href="mailto:kennykoch47@gmail.com">
               <Icon name='mail' size='big' />
               <span className='footer-link-text'>kennykoch47@gmail.com</span>
-            </a>
-          </div>
-        </Grid.Column>
-        <Grid.Column textAlign='center'>
-          <div>
-            <a href="https://twitter.com/kennykoch47">
-              <Icon name='twitter' size='big' />
-              <span className='footer-link-text'>@kennykoch47</span>
             </a>
           </div>
         </Grid.Column>
