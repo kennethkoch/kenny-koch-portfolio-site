@@ -51,6 +51,14 @@ a:hover {
 		display: none;
 		visibility: hidden;
 	}
+
+	#footer div .column {
+		margin: auto;
+	}
+
+	#footer div .column div a {
+		margin: auto;
+	}
 }
 
 #navbar {
