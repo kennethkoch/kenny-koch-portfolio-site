@@ -43,8 +43,33 @@ a:hover {
 		padding-top: 7vh;
 	}
 
-	#projects {
+	#about .row .header {
+    font-size: 4.8vmin;
+    padding-top: 2vh;
+  }
+
+	#about .row p {
+	 font-size: 3.9vmin;
+ }
+
+ #about .row .list .item {
+    font-size: 3.5vmin;
+  }
+
+ 	#footer div .column {
+	 margin: auto;
+ }
+
+ 	#footer div .column div a {
+	 margin: auto;
+ }
+
+ 	#projects {
 		padding-top: 9vh;
+	}
+
+	#projects .card .description {
+		font-size: 4.3vmin
 	}
 
 	.footer-link-text {
@@ -52,31 +77,24 @@ a:hover {
 		visibility: hidden;
 	}
 
-	#footer div .column {
-		margin: auto;
-	}
-
-	#footer div .column div a {
-		margin: auto;
+	.secondary a {
+	font-size: 4vmin;
 	}
 }
 
-#navbar {
-	border: 0px;
-	font-size: 3.5vmin;
+#about-navbar, #navbar, #portfolio-navbar {
+ border:0;
+ font-size:3.5vmin;
 }
 
 #about-navbar {
-	background-color: #3D3F41;
-	border: 0px;
-	font-size: 3.5vmin;
+ background-color:#3d3f41
 }
 
 #portfolio-navbar {
-	background-color: #263238;
-	border: 0px;
-	font-size: 3.5vmin;
+ background-color:#263238;
 }
+
 
 #footer {
 	bottom: 0;
